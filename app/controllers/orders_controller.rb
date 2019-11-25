@@ -4,4 +4,8 @@ class OrdersController < ApplicationController
         orders = Order.all 
         render json: Order.all
     end
+
+    def show
+    end
+    
 end

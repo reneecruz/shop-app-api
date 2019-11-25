@@ -1,7 +1,6 @@
 class ApplicationController < ActionController::API
 
     def secret 
-        "dkfjdjfkdfjkdfjk"
+        "djdlfjslfjdlk"
     end
-    
 end
