@@ -12,5 +12,8 @@ class User < ApplicationRecord
         OrderSerializer.new(order)
     end
 
+    def create_new_order 
+        Order.create(user: self, status: "cart")
+    end
 
 end
