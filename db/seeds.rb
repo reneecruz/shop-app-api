@@ -10,7 +10,7 @@ User.destroy_all
 Order.destroy_all 
 Item.destroy_all
 
-renee = User.create(first_name: "Renée", last_name: "Cruz", email: "reneebasscruz@gmail.com", password_digest: "123", username: 
+renee = User.create(first_name: "Renée", last_name: "Cruz", email: "reneebasscruz@gmail.com", password: "123", username: 
 "renee", img_url: "https://bgp-palembang.com/assets/img/avatar/avatar-2.png")
 
 coffee = Item.create(name: "Coffee", price: 12, description: "Fair Trade dark roast organic coffee from Guatemala.", img_url: "https://goodeggs2.imgix.net/product_photos/mvgGguzuQK2Cg3qKvsMK_2018_0613_BlueBottle_GiantSteps%20%288de1ccc420e411c8bbfb2f4bd51c2668fce47873%29.jpg?w=840&h=525&fm=jpg&q=80&fit=crop")
