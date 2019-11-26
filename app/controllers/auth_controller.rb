@@ -6,7 +6,7 @@
         if user && user.authenticate(login_params[:password])
             payload = {user_id: user.id} 
             token = JWT.encode(payload, secret, "HS256")
-            render json: {user: user, token: token}
+            render json: {user: UserSerializer.new(user), token: token}
         else 
             render json: {errors: user.errors.full_messages}
         end

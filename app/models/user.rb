@@ -5,4 +5,12 @@ class User < ApplicationRecord
     validates :username, uniqueness: true
 
     has_secure_password
+
+
+    def active_order
+        order = self.orders.find_by(status: "cart")
+        OrderSerializer.new(order)
+    end
+
+
 end
