@@ -8,7 +8,8 @@ class OrderItemsController < ApplicationController
     end
 
     def create 
-        OrderItem.create(order_item_params)
+      
+        render json: OrderItem.create(order_item_params)
     end 
 
     private 
