@@ -9,7 +9,10 @@ Rails.application.routes.draw do
   post "/signup", to: "users#create"
 
   get "/showpage", to: "items#show"
-  get "/account", to: "users#show"
+  # get "/:id", to: "users#show"
+
+  get "/checkout", to: "orders#checkout"
+  post "/orders/checkout", to: "orders#checkout"
 
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end

@@ -20,6 +20,8 @@ vitamins = Item.create(name: "Vitamins", price: 26, description: "One month supp
 # coffee = Item.create(name: "Coffee", price: 12, description: "Fair Trade dark roast organic coffee from Guatemala.")
 # coffee = Item.create(name: "Coffee", price: 12, description: "Fair Trade dark roast organic coffee from Guatemala.")
 
-order = Order.create(user: renee, status: "cart")
+# order = Order.create(user: renee, status: "cart")
 
-OrderItem.create(order: order, item: coffee, quantity: 2)
+# OrderItem.create(order: order, item: coffee, quantity: 2)
+
+puts "It has been seeded. 🦄"
