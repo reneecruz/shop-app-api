@@ -20,8 +20,8 @@ class OrdersController < ApplicationController
         order = user.orders.find_by(status: "cart")
         order.update(status: "order")
         user.create_new_order
-        render json: user
-  
+        user.submitted_orders
+        render json: user, include: "**"
     end
     
 end

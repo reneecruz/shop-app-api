@@ -19,6 +19,18 @@ class User < ApplicationRecord
         end
     end
 
+    def submitted_orders
+        order = self.orders.find_by(status: "order")
+        # OrderSerializer.new(order)
+        if order 
+            OrderSerializer.new(order)
+        else
+            {
+                order_items: []
+            }
+        end
+    end
+
     def create_new_order 
         Order.create(user: self, status: "cart")
     end
