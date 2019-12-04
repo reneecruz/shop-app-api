@@ -29,7 +29,9 @@ class User < ApplicationRecord
                 id: order.id,
                 order_items: order.items,
                 date: order.updated_at
+                
             }
+           
         end
         # OrderSerializer.new(order)
         if order.length 
