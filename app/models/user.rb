@@ -20,14 +20,25 @@ class User < ApplicationRecord
     end
 
     def submitted_orders
-        order = self.orders.find_by(status: "order")
-        # OrderSerializer.new(order)
-        if order 
-            OrderSerializer.new(order)
-        else
+        order = self.orders.select do |order|
+            order.status == "order"
+        end
+
+        orders = order.map do |order|
             {
-                order_items: []
+                id: order.id,
+                order_items: order.items,
+                date: order.updated_at.to_s.split(" ")[0]
+                
             }
+           
+        end
+        # OrderSerializer.new(order)
+        if order.length 
+            # OrderSerializer.new(order)
+            orders
+        else
+            []
         end
     end
 

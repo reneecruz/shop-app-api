@@ -13,14 +13,16 @@ class OrdersController < ApplicationController
     # end
 
     def checkout 
+        # byebug
         encoded_token = request.headers['Authorization']
         decoded_token = JWT.decode(encoded_token, secret, true, { algorithm: 'HS256' })
         user_id = decoded_token[0]["user_id"]
         user = User.find(user_id)
+        # byebug
         order = user.orders.find_by(status: "cart")
         order.update(status: "order")
         user.create_new_order
-        user.submitted_orders
+        # user.submitted_orders
         render json: user, include: "**"
     end
     
