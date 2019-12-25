@@ -5,6 +5,9 @@ ruby '2.6.1'
 
 
 gem 'rest-client'
+
+gem 'dotenv-rails', groups: [:development, :test]
+
 group :development, :test do 
   gem 'dotenv-rails'
   gem 'rspec-rails'
