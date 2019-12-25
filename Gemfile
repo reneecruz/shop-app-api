@@ -6,10 +6,11 @@ ruby '2.6.1'
 
 gem 'rest-client'
 
-gem 'dotenv-rails', groups: [:development, :test]
+
+# gem 'dotenv-rails', groups: [:development, :test]
 
 group :development, :test do 
-  gem 'dotenv-rails'
+  gem 'dotenv-rails', '>= 2.7.5'
   gem 'rspec-rails'
 end
 
