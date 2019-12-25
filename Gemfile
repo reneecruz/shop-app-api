@@ -3,10 +3,9 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '>= 2.6.1'
 
-
+gem 'figaro'
 gem 'rest-client'
 
-gem 'bundler'
 
 
 # gem 'dotenv-rails', groups: [:development, :test]
