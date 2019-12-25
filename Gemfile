@@ -3,7 +3,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '>= 2.6.1'
 
-gem 'figaro'
+# gem 'figaro'
 gem 'rest-client'
 gem 'bundler', '>= 2.0'
 
