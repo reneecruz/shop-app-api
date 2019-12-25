@@ -1,10 +1,12 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.6.1'
+ruby '>= 2.6.1'
 
 
 gem 'rest-client'
+
+gem 'bundler'
 
 
 # gem 'dotenv-rails', groups: [:development, :test]
