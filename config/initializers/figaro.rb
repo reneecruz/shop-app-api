@@ -1,1 +1,1 @@
-Figaro.require_keys("pusher_app_id", "pusher_key", "pusher_secret")
+Figaro.require_keys("nyt_api_key", "jwt_secret_key")
