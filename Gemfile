@@ -2,17 +2,12 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.3'
-
+gem 'dotenv-rails', require: 'dotenv/rails-now', groups: [:development, :test]
 # gem 'figaro'
 gem 'rest-client'
 gem 'bundler', '>= 2.0'
 
-
-
-# gem 'dotenv-rails', groups: [:development, :test]
-
 group :development, :test do 
-  gem 'dotenv-rails', '>= 2.7.5'
   gem 'rspec-rails'
 end
 
