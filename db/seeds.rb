@@ -30,7 +30,7 @@ ActiveRecord::Base.connection.tables.each do |t|
     ActiveRecord::Base.connection.reset_pk_sequence!(t)
   end
   require "rest-client"
-  require "dotenv"
+  # require "dotenv"
 response = RestClient::Request.execute(
     method: :get,
     url: "https://apidojo-hm-hennes-mauritz-v1.p.rapidapi.com/products/list",
