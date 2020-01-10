@@ -6,9 +6,9 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# User.destroy_all
-# Order.destroy_all 
-# Item.destroy_all
+User.destroy_all
+Order.destroy_all 
+Item.destroy_all
 
 # renee = User.create(first_name: "Renée", last_name: "Cruz", email: "reneebasscruz@gmail.com", password: "123", username: 
 # "renee", img_url: "https://bgp-palembang.com/assets/img/avatar/avatar-2.png")
@@ -24,7 +24,7 @@
 
 # OrderItem.create(order: order, item: coffee, quantity: 2)
 
-puts "It has been seeded. 🦄"
+puts "Starting to seed. 🦄"
 
 ActiveRecord::Base.connection.tables.each do |t|
     ActiveRecord::Base.connection.reset_pk_sequence!(t)
