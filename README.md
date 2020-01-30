@@ -11,30 +11,35 @@ https://youtu.be/AvZsuDvOJX4
 Deployed live site on Netlify: https://smallshop.netlify.com/
 
 ## Item Index data from External API (H&M)
-![Small Shop H&M API](smallshop_h&m_API.png)
+![Small Shop H&M API](https://github.com/reneecruz/shop-app-client/blob/master/smallshop_h&m_API.png)
 
 ## Items Index 
 
-![Small Shop Items Index](smallshop_items_index.png)
+![Small Shop Items Index](https://github.com/reneecruz/shop-app-client/blob/master/smallshop_items_index.png)
 
 ## Item Showpage 
-![Small Shop Item Showpage](smallshop_items_showpage.png)
+![Small Shop Item Showpage](https://github.com/reneecruz/shop-app-client/blob/master/smallshop_items_showpage.png)
 
 ## Signup Page/Route
 
-![Small Shop Web App Signup](smallshop_signup.png)
+![Small Shop Web App Signup](https://github.com/reneecruz/shop-app-client/blob/master/smallshop_signup.png)
 
 ### Authentication & Authorization using JWT & BCrypt
 
 ## Login Page/Route
 
-![Small Shop Web App Login](smallshop_login.png)
+![Small Shop Web App Login](https://github.com/reneecruz/shop-app-client/blob/master/smallshop_login.png)
 
 
 ### User Login & Persist using Rails API Backend with Auth implemented as mentioned above
 
 ## Rails API Backend 
 https://github.com/reneecruz/shop-app-api
+
+## React & Redux Frontend
+https://github.com/reneecruz/shop-app-client
+
+Stay tuned for a more comprehensive README for Rails API 
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
