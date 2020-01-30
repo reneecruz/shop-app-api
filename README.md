@@ -1,7 +1,7 @@
 # **SMALL SHOP** 
 
 ## Small Shop is a Minimalist Themed E-Commerce Web App that provides Online Business Solution for Entrepreneurs 
-![Small Shop Web App](smallshop_demo.png)
+![Small Shop Web App](https://github.com/reneecruz/shop-app-client/blob/master/smallshop_demo.png)
 
 ## DEMO VIDEO
 https://youtu.be/AvZsuDvOJX4
