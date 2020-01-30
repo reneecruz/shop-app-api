@@ -1,8 +1,40 @@
-# README
+# **SMALL SHOP** 
 
-# DEMO 
+## Small Shop is a Minimalist Themed E-Commerce Web App that provides Online Business Solution for Entrepreneurs 
+![Small Shop Web App](smallshop_demo.png)
 
-https://youtu.be/koocqpsIepE
+## DEMO VIDEO
+https://youtu.be/AvZsuDvOJX4
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fe91612f-fc39-4e23-8f6c-8e4567cb96a4/deploy-status)](https://app.netlify.com/sites/smallshop/deploys)
+
+Deployed live site on Netlify: https://smallshop.netlify.com/
+
+## Item Index data from External API (H&M)
+![Small Shop H&M API](smallshop_h&m_API.png)
+
+## Items Index 
+
+![Small Shop Items Index](smallshop_items_index.png)
+
+## Item Showpage 
+![Small Shop Item Showpage](smallshop_items_showpage.png)
+
+## Signup Page/Route
+
+![Small Shop Web App Signup](smallshop_signup.png)
+
+### Authentication & Authorization using JWT & BCrypt
+
+## Login Page/Route
+
+![Small Shop Web App Login](smallshop_login.png)
+
+
+### User Login & Persist using Rails API Backend with Auth implemented as mentioned above
+
+## Rails API Backend 
+https://github.com/reneecruz/shop-app-api
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
